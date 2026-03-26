@@ -6,6 +6,41 @@ body {
     width: 100%;
 }
 
+.navbar {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    width: 100%;
+}
+
+.navbar ul { 
+    display: flex;
+    list-style: none;
+    padding: 10px 30px;
+    margin: 0;
+    
+    background: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 60px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #333;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 10px 20px;
+    display: block;
+    transition: 0.3s;
+}
+
+.navbar ul li a:hover {
+    background: #00d2ff;
+    color: white;
+    border-radius: 30px;
+}
 
 h1 {
     text-align: center
