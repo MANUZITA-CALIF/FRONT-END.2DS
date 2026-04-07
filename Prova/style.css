@@ -1,0 +1,45 @@
+body {
+    background: #fefefd ;
+}
+
+p {
+    text-align: center;
+    font-size: 25px;
+}
+
+strong {
+    color: #ffbcd9;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 45px;
+    height: 75px;
+    border: 10px solid #f5ccdd;
+    background-color: #f5ccdd;
+    padding-top: 20px;
+}
+
+#banner {
+    width: 100%;
+    height: 550px;
+}
+
+#hello {
+    color: #bcbcbc;
+}
+
+ul {
+    font-size: 25px;
+    color: #bcbcbc;
+}
+
+h2 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 35px;
+    height: 50px;
+    border: 10px solid #f5ccdd;
+    background-color: #f5ccdd;
+    padding-top: 10px;
+}
