@@ -32,6 +32,15 @@ h1 {
 ul {
     font-size: 25px;
     color: #bcbcbc;
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    margin-right: 15%;
+}
+
+.imgdoce {    
+    width: 20%;
+    margin-top: -3%;
 }
 
 h2 {
