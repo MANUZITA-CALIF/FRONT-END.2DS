@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Agro Sustentável</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>🌱 Agro Sustentável</h1>
+
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#quiz">Quiz</a>
+    <a href="#impacto">Impacto</a>
+  </nav>
+
+  <button onclick="modoEscuro()">🌙</button>
+</header>
+
+<section class="hero">
+  <div>
+    <h2>Produzir hoje sem comprometer o amanhã 🌱</h2>
+    <p>
+      O futuro da agricultura depende das escolhas que fazemos hoje.
+      Sustentabilidade é o caminho para um planeta mais equilibrado.
+    </p>
+  </div>
+</section>
+
+<main>
+
+<section id="sobre">
+  <h2>🌾 O que é Agricultura Sustentável?</h2>
+
+  <p>
+    A agricultura sustentável é uma forma de produzir alimentos que busca equilibrar
+    a necessidade de produção com a preservação do meio ambiente. Em vez de explorar
+    os recursos naturais de forma excessiva, ela propõe o uso consciente da água, do solo
+    e da biodiversidade.
+  </p>
+
+  <p>
+    Com o crescimento da população, torna-se essencial produzir mais alimentos sem
+    prejudicar o planeta. Por isso, práticas sustentáveis são fundamentais para garantir
+    qualidade de vida e um futuro melhor para todos.
+  </p>
+
+  <h3>✅ Principais práticas sustentáveis:</h3>
+  <ul>
+    <li>Rotação de culturas para preservar o solo</li>
+    <li>Uso consciente da água</li>
+    <li>Redução de agrotóxicos</li>
+    <li>Preservação de áreas naturais</li>
+    <li>Uso de tecnologias no campo</li>
+  </ul>
+</section>
+
+<section id="quiz">
+  <h2>🧠 Quiz Sustentável</h2>
+
+  <p>
+    Você sabe identificar práticas que ajudam o meio ambiente?
+    Teste seu conhecimento abaixo:
+  </p>
+
+  <p><strong>Pergunta:</strong> Qual prática é sustentável?</p>
+
+  <button onclick="resposta('errado')">Uso excessivo de agrotóxicos</button>
+  <button onclick="resposta('certo')">Rotação de culturas</button>
+
+  <p id="resultado"></p>
+</section>
+
+<section id="impacto">
+  <h2>🌍 Impacto das suas ações</h2>
+
+  <p>
+    Pequenas atitudes podem gerar grandes mudanças. Cada clique representa
+    uma ação positiva para o meio ambiente.
+  </p>
+
+  <button onclick="contador()">Gerar impacto positivo 🌱</button>
+
+  <p>Impactos gerados: <span id="numero">0</span></p>
+
+  <h3>💡 Exemplos de impacto positivo:</h3>
+  <ul>
+    <li>Economia de água</li>
+    <li>Redução da poluição</li>
+    <li>Preservação da biodiversidade</li>
+    <li>Alimentos mais saudáveis</li>
+  </ul>
+</section>
+
+</main>
+
+<footer>
+  <p>
+    Projeto Agrinho 2026 🌾<br>
+    Agro forte, futuro sustentável.
+  </p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

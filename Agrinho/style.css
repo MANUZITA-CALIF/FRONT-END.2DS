@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f0fdf4;
+  transition: 0.3s;
+}
+
+/* */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #166534;
+  color: white;
+  padding: 15px;
+  font-family: 'Georgia', serif;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 35px;
+  font-style: italic;
+  color: #166534;
+  text-align: center;
+  margin-top: 3;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #333;
+  margin: 20px;
+}
