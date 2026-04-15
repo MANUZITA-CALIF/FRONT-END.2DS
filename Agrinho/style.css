@@ -1,37 +1,59 @@
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: Arial;
-  background: #f0fdf4;
   transition: 0.3s;
 }
-
-/* */
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #166534;
-  color: white;
   padding: 15px;
   font-family: 'Georgia', serif;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+              url("https://i.pinimg.com/736x/04/74/ca/0474ca594963c226af2ed5343aa0259b.jpg") center/cover;
+
+  
+}
+
+
+h2 {
+  font-size: 35px;
+  text-decoration-style: dotted;
+  color: white;
+
 }
 
 nav a {
   color: white;
   text-decoration: none;
   margin-left: 20px;
-  font-size: 18px;
+  font-size: 20px;
+  font-family: 'Georgia', serif;
 }
 
-#planta {
-  align-self: center;
-}
 
 h1 {
   font-size: 35px;
   font-style: italic;
   color: #166534;
+  text-align: center;
+  margin-top: 3;
+}
+
+h3 {
+  font-size: 35px;
+  font-style: italic;
+  color: #ffffff;
   text-align: center;
   margin-top: 3;
 }
@@ -42,3 +64,34 @@ p {
   color: #333;
   margin: 20px;
 }
+
+ul {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #333;
+  margin: 20px;
+}
+
+#inicio {
+  border: 10px solid #9CDB84;
+  margin: 20px;
+}
+#sobre {
+  border: 10px solid #9CDB84;
+  background:#9CDB84;
+  margin: 20px;
+}
+#tecnologia {
+  border: 10px solid #9CDB84;
+  margin: 20px;
+}
+#ecoagro {
+  border: 10px solid #9CDB84;
+  background-color: #9CDB84;
+  margin: 20px;
+}
+#vcsabia {
+  border: 10px solid #9CDB84;
+  margin: 20px;
+}
+
