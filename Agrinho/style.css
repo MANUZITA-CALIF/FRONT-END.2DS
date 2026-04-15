@@ -24,6 +24,10 @@ nav a {
   font-size: 18px;
 }
 
+#planta {
+  align-self: center;
+}
+
 h1 {
   font-size: 35px;
   font-style: italic;
